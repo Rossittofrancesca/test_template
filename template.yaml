@@ -8,7 +8,6 @@ metadata:
 spec:
   owner: backstage/techdocs-core
   type: service
-
   parameters:
     - title: Fill in some steps
       required:
