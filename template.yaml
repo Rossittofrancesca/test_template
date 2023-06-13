@@ -2,8 +2,8 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 # some metadata about the template itself
 metadata:
-  name: hello-world-2
-  title: Hello World 2
+  name: Test-template
+  title: Test Template
   description: scaffolder Hello, World template demo
 spec:
   owner: backstage/techdocs-core
