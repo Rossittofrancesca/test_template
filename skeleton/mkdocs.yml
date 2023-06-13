@@ -1,0 +1,3 @@
+name: ${{values.name | dump}}
+plugins:
+  - techdocs-core
