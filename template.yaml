@@ -7,7 +7,7 @@ metadata:
   description: scaffolder Hello, World template demo
 spec:
   owner: backstage/techdocs-core
-  type: service
+  type: webservice
   parameters:
     - title: Fill in some steps
       required:
@@ -20,6 +20,10 @@ spec:
           ui:autofocus: true
           ui:options:
             rows: 5
+        description:
+          title: Description
+          type: string
+          description: Help others understand what this website is for.     
 
   # here's the steps that are executed in series in the scaffolder backend
   steps:
@@ -27,4 +31,5 @@ spec:
       name: Log Message
       action: debug:log
       input:
-        message: "Hello, ${{ parameters.name }}"
+        message: "Hello, ${{ parameters.name }} and ${{ parameters.description }}"
+        
