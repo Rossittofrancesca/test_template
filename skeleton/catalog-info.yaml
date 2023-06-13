@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ${{values.name | dump}}
-
+  description: A static website. Just like the good old days.
 spec:
   type: website
   lifecycle: experimental
