@@ -1,3 +1,5 @@
 name: ${{values.name | dump}}
+description: ${{values.description | dump}}
 plugins:
   - techdocs-core
+  
