@@ -79,7 +79,8 @@ spec:
       name: Log Message
       action: debug:log
       input:
-        message: "Hello, ${{ parameters.name }} and ${{ parameters.description }}"
+        message: "Hello, ${{ parameters.component_id }} and ${{ parameters.description }}"
+
   output:
     links:
       - title: Repository
